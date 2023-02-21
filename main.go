@@ -51,7 +51,7 @@ func main()  {
 
 	bot.Command("iam the best", &slacker.CommandDefinition{
 		Handler: func(botCtx slacker.BotContext, request slacker.Request, response slacker.ResponseWriter) {
-			response.Reply("yes you are!")
+			response.Reply("yup you are!")
 		},
 	})
 
